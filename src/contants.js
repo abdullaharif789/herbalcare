@@ -1,8 +1,7 @@
 export const app = {
-  api: "https://server.fcportal.org/public/",
+  api: "https://server.herbalcarepk.com/public/",
   // api: "http://127.0.0.1:8000/",
-  website: "https://fastcommerceinternational.com/",
-  currencySymbol: "$",
+  currencySymbol: "PKR",
   currencyCode: "GBP",
   colorOne: "#775CD9",
   colorTwo: "#AE9EFD",

@@ -6,7 +6,9 @@ import authProvider from "./providers/authProvider";
 import dataProvider from "./providers/dataProvider";
 
 import layout from "./layout";
-import { app } from "./contants";
+
+import products from "./products/products";
+import variants from "./variants/variants";
 
 export default function App() {
   return (
@@ -14,6 +16,9 @@ export default function App() {
       layout={layout}
       dataProvider={dataProvider}
       authProvider={authProvider}
-    ></Admin>
+    >
+      <Resource name="products" {...products} />
+      <Resource name="variants" {...variants} />
+    </Admin>
   );
 }
