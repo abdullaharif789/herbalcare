@@ -9,6 +9,7 @@ import layout from "./layout";
 
 import products from "./products/products";
 import variants from "./variants/variants";
+import orders from "./orders/orders";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
     >
       <Resource name="products" {...products} />
       <Resource name="variants" {...variants} />
+      <Resource name="orders" {...orders} />
     </Admin>
   );
 }

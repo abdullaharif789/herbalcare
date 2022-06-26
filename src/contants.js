@@ -1,5 +1,5 @@
 export const app = {
-  api: "https://server.herbalcarepk.com/public/",
+  api: "https://server.herbalcarepk.com/",
   // api: "http://127.0.0.1:8000/",
   currencySymbol: "PKR",
   currencyCode: "GBP",

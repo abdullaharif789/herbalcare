@@ -26,6 +26,13 @@ import CategoryIcon from "@material-ui/icons/VerticalSplitSharp";
 import { app } from "../contants";
 const VariantFilter = (props) => (
   <Filter {...props}>
+    <TextInput
+      alwaysOn
+      source="variant_id"
+      fullWidth
+      variant="outlined"
+      label="Variant Id"
+    />
     <ReferenceInput
       source="product_id"
       reference="products"
